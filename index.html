@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fazepediagaminghub</title>
+    <link rel="stylesheet" href="assets/style/custom.css">
+    <link rel="stylesheet" href="assets/style/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- paket js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <!-- paket js -->
+
+    <script>
+        function openPageContent(content) {
+            var i;
+            var x = document.getElementsByClassName("contentPage");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(content).style.display = "block";
+        }
+    </script>
+
+    <!-- banner -->
+    <img src="assets/image/banner+title.png" class="img-fluid" alt="...">
+    <!-- banner -->
+
+    <!-- navbar -->
+    <ul class="nav nav-underline" id="navbarMain">
+        <li></li>
+        <li class="nav-item w3-animate-zoom">
+            <a class="nav-link text-light navOptionText" onclick="openPageContent('home')" href="#">Home</a>
+        </li>
+        <li class="nav-item w3-animate-zoom">
+            <a class="nav-link text-light navOptionText" onclick="openPageContent('game')" href="#">Game</a>
+        </li>
+        <li class="nav-item w3-animate-zoom">
+            <a class="nav-link text-light navOptionText" onclick="openPageContent('team')" href="#">Team</a>
+        </li>
+        <li class="nav-item w3-animate-zoom">
+            <a class="nav-link text-light navOptionText" onclick="openPageContent('profile')" href="#">Profile</a>
+        </li>
+    </ul>
+    <!-- navbar -->
+
+    <!-- HOME start:: -->
+    <div class="container-xxl w3-animate-bottom contentPage" id="home">
+        <center>
+            <br>
+            <br>
+            <h1 class="text-light w3-animate-zoom" id="pageMainText">Weekly News</h1>
+            <div id="carouselExampleAutoplaying" class="carousel slide p-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/news/GEvmSJWXYAAn4ck.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="newsSlideTitle">VALORANT</h1>
+                            <p class="newsSlideText">VCT Pacific Group Stage</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/news/news3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="newsSlideTitle">CS2</h1>
+                            <p class="newsSlideText">Faze Clan Win 2:1 over Gamer Legion at Blast Premier Spring Groups
+                                2024</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/news/news4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="newsSlideTitle">CS2</h1>
+                            <p class="newsSlideText">Robin "ropz" Kool make a great performace today!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </center>
+    </div>
+    <!-- HOME end:: -->
+
+    <!-- GAME start:: -->
+    <div class="container-xxl w3-animate-bottom contentPage" id="game" style="display:none">
+        <br>
+        <br>
+        <center>
+            <h1 class="text-light w3-animate-zoom" id="pageMainText">Game List</h1>
+        </center>
+        <div class="p-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col w3-animate-zoom">
+                    <div class="card text-bg-dark gameListCard">
+                        <img src="assets/image/game_logo/VALORANT.jpg" class="card-img-top gameListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title gameListText">Valorant</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col w3-animate-zoom">
+                    <div class="card text-bg-dark gameListCard">
+                        <img src="assets/image/game_logo/cs2.jpg" class="card-img-top gameListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title gameListText">CS2</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col w3-animate-zoom">
+                    <div class="card text-bg-dark gameListCard">
+                        <img src="assets/image/game_logo/dota2.jpg" class="card-img-top gameListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title gameListText">Dota 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col w3-animate-zoom">
+                    <div class="card text-bg-dark gameListCard">
+                        <img src="assets/image/game_logo/lol.jpg" class="card-img-top gameListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title gameListText">League Of Legends</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col w3-animate-zoom">
+                    <div class="card text-bg-dark gameListCard">
+                        <img src="assets/image/game_logo/ow.jpg" class="card-img-top gameListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title gameListText">Overwatch</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col w3-animate-zoom">
+                    <div class="card text-bg-dark gameListCard">
+                        <img src="assets/image/game_logo/Rocket League Text With Logo Kid's T-Shirt - Gold _ X-Large (12-13 yrs).jpg"
+                            class="card-img-top gameListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title gameListText">Rocket League</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- GAME end:: -->
+
+    <!-- TEAM start:: -->
+    <div class="container-xxl w3-animate-bottom contentPage" id="team" style="display:none">
+        <br>
+        <br>
+        <center>
+            <h1 class="text-light w3-animate-zoom" id="pageMainText">Team List</h1>
+        </center>
+        <div class="row row-cols-1 row-cols-md-5 g-4 p-5">
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/100 Thieves release kNg.jpg" class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">100 Thieves</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/Astralis Logo by vexed123.jpg" class="card-img-top teamListImg"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Astralis</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/The Evil Geniuses logo___.jpg" class="card-img-top teamListImg"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Evil Geniusess</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/FaZe Clan Wiki, Facts.jpg" class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Faze Clan</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/1fb7f5e5-5d1d-46b1-abf0-95bb0a8e8a0a.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Furia</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/d33fe5f8-7c05-40b5-8d88-98ec9219a046.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">G2</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/Loud.jpg" class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Loud</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/Navi.jpg" class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Navi</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/NRG.jpg" class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">NRG</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/Pain Gaming ♥️ 🖤.jpg" class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Pain Gaming</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/Paper Rex Logo PNG Vector (SVG) Free Download.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Peper Rex</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/Sentinels Logo PNG Vector (SVG) Free Download.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Sentinels</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/cc3b115d-e931-4a4f-a68b-5c9c7be12b7e.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">T1</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/7817d0a7-9049-4215-9998-a0a0a81c826a.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Team Liquid</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col w3-animate-zoom">
+                <div class="card text-bg-dark teamListCard">
+                    <img src="assets/image/team/d7317237-6b4d-4ca0-8fe6-4d90d0b93566.jpg"
+                        class="card-img-top teamListImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center teamListText">Team Secret</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TEAM end:: -->
+
+    <!-- PROFILE start:: -->
+    <div class="container-xxl w3-animate-bottom p-5 contentPage" id="profile" style="display:none">
+        <center>
+            <h1 class="text-light w3-animate-zoom pb-5" id="pageMainText">Profile</h1>
+            <div class="card text-bg-dark w3-animate-zoom profileCard" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="assets/image/foto diri.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body text-start">
+                            <h5 class="card-title profileText">Muhammad Faishal Rahmani</h5>
+                            <br>
+                            <p class="card-text profileText">NIM : 10123135</p>
+                            <p class="card-text profileText">KELAS : IF-4</p>
+                            <p class="card-text profileText">ANGKATAN : 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <div class="row row-cols-1 row-cols-md-5 g-4 p-5">
+            <div class="col w3-animate-zoom">
+            </div>
+            <div class="col w3-animate-zoom">
+                <a href="https://www.instagram.com/muhashaall17_/" style="text-decoration: none;">
+                    <div class="card text-bg-dark socialListCard">
+                        <img src="assets/image/social_media/instagram.png" class="card-img-top socialListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center socialListText">Instagram</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col w3-animate-zoom">
+                <a href="https://twitter.com/muhashaall17" style="text-decoration: none;">
+                    <div class="card text-bg-dark socialListCard">
+                        <img src="assets/image/social_media/twitter.png" class="card-img-top socialListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center socialListText">Twitter</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col w3-animate-zoom">
+                <a href="https://github.com/muhashaall71" style="text-decoration: none;">
+                    <div class="card text-bg-dark socialListCard">
+                        <img src="assets/image/social_media/github.png" class="card-img-top socialListImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center socialListText">Github</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col w3-animate-zoom">
+            </div>
+        </div>
+    </div>
+    <!-- PROFILE end:: -->
+
+    <div class="w3-container p-5 text-center footerContent">
+        <p>Teknik Informatika UNIKOM, 2023</p>
+    </div>
+
+</body>
+
+</html>

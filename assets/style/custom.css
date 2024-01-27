@@ -1,0 +1,97 @@
+@font-face { 
+    font-family: nunito; src: url('../font/Lexend-VariableFont_wght.ttf'); 
+}
+
+#pageMainText {
+    font-family: nunito;
+}
+
+.navOptionText {
+    font-family: nunito;
+}
+
+.gameListText {
+    font-family: nunito;
+}
+
+.teamListText {
+    font-family: nunito;
+}
+
+.socialListText {
+    font-family: nunito;
+    text-decoration: none;
+}
+
+.newsSlideTitle {
+    font-family: nunito;
+}
+
+.newsSlideText {
+    font-family: nunito;
+}
+
+.profileText {
+    font-family: nunito;
+}
+
+#mainTitle {
+    width: 100%;
+}
+
+#navbarMain {
+    background-image: url('../image/1 2.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 50px;
+}
+
+.contentPage {
+    background-color: #010101;
+}
+
+.gameListImg {
+    height: 180px;
+}
+
+.teamListImg {
+    height: 150px;
+}
+
+.socialListImg {
+    height: 100px;
+}
+
+.contentChildPage {
+    background-color: #09002A;
+}
+
+.footerContent {
+    background-color: #09002A;
+    color: white;
+    font-family: nunito;
+}
+
+.gameListCard:hover {
+    box-shadow: 0px 0px 8px 2px white;
+}
+
+.teamListCard:hover {
+    box-shadow: 0px 0px 8px 2px white;
+}
+
+.socialListCard{
+    padding: 15px;
+}
+
+.socialListCard:hover {
+    box-shadow: 0px 0px 8px 2px white;
+}
+
+.profileCard {
+    box-shadow: 0px 0px 4px 2px white;
+}
+
+#carouselExampleAutoplaying {
+    width: 85%;
+}
